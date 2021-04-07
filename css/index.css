@@ -19,7 +19,7 @@
 }
 .boton_1{
     display: block;
-    color: #fff;
+    color: black;
     width: 80px;
     text-align: center;
     background-color: #138D75;
@@ -28,9 +28,13 @@
     font-size: 15px;
     margin: 5px;
 }
+.boton_1:hover{
+    
+    transition: 0.3s;
+}
 .boton_2{
     display: block;
-    color: #fff;
+    color: black;
     width: 80px;
     text-align: center;
     background-color: #138D75;
