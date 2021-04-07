@@ -1,0 +1,59 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    background-color: #138D75;
+    width: 100%;
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 15px 50px 0px 50px;
+    box-sizing: border-box;
+    padding-top: 25px;
+}
+.MenuT{
+    background-color: #138D75; 
+}
+.menu{
+    background-color: #138D75;
+    list-style: none;
+    width: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around
+}
+.Munu_L{
+    background-color: #138D75;
+    text-decoration: none;
+    list-style: none;
+    color: black;
+}
+a{
+    text-decoration: none;
+}
+:root{
+    --color1: blue;
+    --color2: white;
+    --color3: black;
+    
+    --colorTexto: green;
+}
+.Nombre{
+    font-size: 20px;
+    background-color: #138D75;
+}
+/*SECCION FOOTER-----------------------------------------------------*/
+footer{
+    width: 100%;
+    height: 60px;
+    background-color: #138D75;
+    font-size: 30px;
+    color: black;
+    padding-top: 30px;
+    text-align: center;
+}
+/*_________________________________________________________________*/
+

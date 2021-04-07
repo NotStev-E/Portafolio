@@ -1,0 +1,47 @@
+*{
+    background: black;
+}
+.banner{
+    width: 100%;
+    height: 500px;
+    padding: 100px 0px 0px 100px;
+    background-image: url(../img/bannercutre.gif);
+    background-size: cover;
+    box-sizing: border-box;
+}
+.caja_izquierda{
+    width: 500px;
+    color: #138D75;
+    
+}
+.banner> .caja_izquierda > h2{
+    font-size: 30px;
+}
+.boton_1{
+    display: block;
+    color: #fff;
+    width: 80px;
+    text-align: center;
+    background-color: #138D75;
+    padding: 10px 40px 10px 40px;
+    border-radius: 20px;
+    font-size: 15px;
+    margin: 5px;
+}
+.boton_2{
+    display: block;
+    color: #fff;
+    width: 80px;
+    text-align: center;
+    background-color: #138D75;
+    padding: 10px 40px 10px 40px;
+    border-radius: 20px;
+    font-size: 15px; 
+    margin: 5px;
+}
+.seccion_2{
+    background-color: #138D75;
+    width: 100%;
+    height: 900px;
+    margin: 50px auto;
+}
