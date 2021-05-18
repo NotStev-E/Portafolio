@@ -4,7 +4,7 @@ body{
 }
 .banner{
     width: 100%;
-    height: 600px;
+    height: 550px;
     padding: 100px 0px 0px 100px;
     background-image: url(../img/bannercutre.gif);
     background-size: cover;
@@ -16,7 +16,7 @@ body{
     
 }
 .banner> .caja_izquierda > h2{
-    font-size: 30px;
+    font-size: 35px;
 }
 .boton_1{
     display: block;
@@ -36,8 +36,12 @@ body{
 }
 .seccion_2{
     width: 100%;
-    height: 700px;
+    height: 480px;
     background-color: #138D75;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 100px;
 }
 .seccion_03{
     width: 100%;
@@ -47,10 +51,25 @@ body{
     box-sizing: border-box;
 }
 .seccion_foto{
-    margin-left: 140px;
+    margin-left: 180px;
     border: 1px solid black;
-    background-color: red;
-    width: 100px;
-    height: 100px;
-    border-radius: 50px;
+    width: 450px;
+    height: 350px;
+    border-radius: 2%;
+    background-image: url(../img/bannercutre.gif);
+}
+.seccion_foto_2{
+    margin-left: 25px;
+    border: 1px solid black;
+    width: 400px;
+    height: 300px;
+    margin-top: 25px;
+}
+.Titulo_inicio{
+    margin-right: 500px;
+    font-size: 50px;
+}
+.parrafo_inicio{
+    margin-top: 20px;
+    font-size: 25px;
 }

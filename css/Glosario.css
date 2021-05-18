@@ -16,7 +16,6 @@ body{
     top: 8%;
 }
 .caja_de_secciones li a{
-    padding: 4% 2%;
     background-color: #138D75;
     color: black;
     text-decoration: none;
@@ -38,12 +37,10 @@ body{
     width: 100%;
     height: auto;
     background-color: #138D75;
+    border-bottom: 2px solid black;
 }
 
 /*SECCION LISTA------------------------------------------------------*/
-.seccion_lista{
-   margin: 20px;
-}
 .lista_texto, .lista_objetos, .lista_texto_css, .lista_objetos_css, .lista_img {
     font-size: 25px;
     color: black;
@@ -70,7 +67,6 @@ body{
     margin: auto;
 }
 .seccion_1 div{
-    color: #76D7C4;
     margin-top: 30px;
     margin-bottom: 40px;
     margin-left: 40px;
@@ -81,45 +77,45 @@ body{
 }
 .seccion_1 > .caja_1{
     width: 250px;
-    height: 600px;
+    height: auto;
 }
 .seccion_1 > .caja_2{
     width: 600px;
-    height: 600px;
+    height: auto;
 }
 .seccion_1 > .caja_4 > li{
     list-style: none;
 }
 .seccion_1 > .caja_3{
     width: 260px;
-    height: 300px;
+    height: auto;
 }
 .seccion_1 > .caja_4{
     width: 600px;
-    height: 300px;
+    height: auto;
 }
 .seccion_1 > .caja_6 > li{
     list-style: none;
 }
 .seccion_1 > .caja_5{
     width: 200px;
-    height: 260px;
+    height: auto;
     margin-bottom: 30px;
 }
 .seccion_1 > .caja_6{
     width: 600px;
-    height: 260px;
+    height: auto;
 }
 .seccion_1 > .caja_8 > li{
     list-style: none;
 }
 .seccion_1 > .caja_7{
     width: 200px;
-    height: 340px;
+    height: auto;
 }
 .seccion_1 > .caja_8{
     width: 600px;
-    height: 340px;
+    height: auto;
     margin-bottom: 50px;
 }
 .seccion_1 > .caja_10 > li{
@@ -127,12 +123,12 @@ body{
 }
 .seccion_1 > .caja_9{
     width: 200px;
-    height: 200px;
+    height: auto;
     margin-bottom: 70px;
 }
 .seccion_1 > .caja_10{
     width: 600px;
-    height: 200px;
+    height: auto;
     margin-bottom: 70px;
 }
 /*___________________________________________________________________*/
@@ -145,7 +141,8 @@ body{
     height: auto;
     margin: auto;
     padding-top: 20px;
-    margin-bottom: 15px;
+    border-bottom: 2px solid black;
+    padding-bottom: 80px;
 }
 .ejemplos{
     text-align: center;
