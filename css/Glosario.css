@@ -1,12 +1,12 @@
 body{
     margin-top: 3%;;
-    margin-left: 15.2%;
+    margin-left: 15.9%;
     background-color: black;
 }
 .caja_de_secciones{
     height: 100%;
-    width: 15%;
-    background-color: #138D75;
+    width: 16%;
+    background-image: url(../img/bannercutre.gif);
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -16,20 +16,24 @@ body{
     top: 8%;
 }
 .caja_de_secciones li a{
-    background-color: #138D75;
-    color: black;
+    color: #76D7C4;
     text-decoration: none;
     transition: 0.3s;
     display: block;
     text-align: center;
-    font-size: 20px;
+    font-size: 15px;
+    padding: 8px 25px;
+    border-left: 5px solid transparent;
 }
 .caja_de_secciones li a:hover{
     transition: all 0.3s linear;
-    background-color: #76D7C4;
+    border-left: 5px solid #76D7C4;
 }
 .boton_etiquetas, .boton_propiedades, .boton_ejemplos, .boton_ejemplos_2{
-    margin-bottom: 40%;
+    margin-bottom: 5%;
+}
+.boton_ejemplos_2{
+    margin-bottom: 50px;
 }
 /************************************************************************/
 
@@ -37,20 +41,19 @@ body{
     width: 100%;
     height: auto;
     background-color: #138D75;
-    border-bottom: 2px solid black;
+    padding-top: 10px;
 }
 
 /*SECCION LISTA------------------------------------------------------*/
 .lista_texto, .lista_objetos, .lista_texto_css, .lista_objetos_css, .lista_img {
     font-size: 25px;
-    color: black;
     padding-top: 10px;
     text-align: center;
-    width: 800px;
+    width: 100%;
     height: 40px;
-    background-color: #138D75;
+    background-image: url(../img/bannercutre.gif);
     margin: auto;
-    margin-top: 50px;
+    color: #76D7C4;
 }
 .Lista_text, .Lista_obj, .Lista_text_css, .Lista_obj_css, .Lista_imag{
     color: #76D7C4;
@@ -59,18 +62,28 @@ body{
     margin-top: 50px;
 }
 .seccion_1{
-    width: 1100px;
-    height: auto;
     display: flex;
     flex-direction: row;
-    justify-content:space-between;
+    width: 1000px;
+    height: auto;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 30px;;
+}
+.caja_01{
+    margin: 33px;
+    width: 310px;
+    height: 450px;
+}
+.caja_01 p{
     margin: auto;
 }
-.seccion_1 div{
-    margin-top: 30px;
-    margin-bottom: 40px;
-    margin-left: 40px;
-    margin-right: 200px;
+.lista_dx{
+    margin: 20px 0px 0px 0px;
+}
+.seccion_lista{
+    display: flex;
+    flex-wrap: wrap;
 }
 .seccion_1 > .caja_2 > li{
     list-style: none;
@@ -102,10 +115,6 @@ body{
     height: auto;
     margin-bottom: 30px;
 }
-.seccion_1 > .caja_6{
-    width: 600px;
-    height: auto;
-}
 .seccion_1 > .caja_8 > li{
     list-style: none;
 }
@@ -124,12 +133,14 @@ body{
 .seccion_1 > .caja_9{
     width: 200px;
     height: auto;
-    margin-bottom: 70px;
+    margin-bottom: 102px;
+    margin-top: 102px;
 }
 .seccion_1 > .caja_10{
     width: 600px;
     height: auto;
-    margin-bottom: 70px;
+    margin-bottom: 80px;
+    margin-top: 100px;   
 }
 /*___________________________________________________________________*/
 
@@ -140,21 +151,28 @@ body{
     width: 100%;
     height: auto;
     margin: auto;
-    padding-top: 20px;
-    border-bottom: 2px solid black;
-    padding-bottom: 80px;
+    padding-top: 10px;
+    padding-bottom: 30px;
 }
 .ejemplos{
-    text-align: center;
-    color: black;
     font-size: 25px;
-    background-color: #138D75;
+    padding-top: 10px;
+    text-align: center;
+    width: 100%;
+    height: 40px;
+    background-image: url(../img/bannercutre.gif);
+    margin: auto;
+    color: #76D7C4;
 }
 .ejemplos2{
-    text-align: center;
-    color: black;
     font-size: 25px;
-    background-color: #138D75;
+    padding-top: 10px;
+    text-align: center;
+    width: 100%;
+    height: 40px;
+    background-image: url(../img/bannercutre.gif);
+    margin: auto;
+    color: #76D7C4;
 }
 img{
     width: 450px;
@@ -165,7 +183,18 @@ img{
     margin-top: 20px;
     display: table;
     text-align: center;
+    background-image: url(../img/bannercutre.gif);
+    color: #76D7C4;
 }
 /*___________________________________________________________________*/
 
-
+.Titulo_etiquetas{
+    width: 200px;
+    height: 30px;
+    background-image: url(../img/bannercutre.gif);
+    text-align: center;
+    padding: 5px 0px 0px 0px;
+    color: #76D7C4;
+    font-size: 20px;
+    border: 1px solid #76D7C4;
+}

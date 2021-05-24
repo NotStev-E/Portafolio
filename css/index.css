@@ -13,7 +13,6 @@ body{
 .caja_izquierda{
     width: 500px;
     color: #138D75;
-    
 }
 .banner> .caja_izquierda > h2{
     font-size: 35px;
@@ -26,13 +25,16 @@ body{
     background-color: #138D75;
     padding: 10px 40px 10px 40px;
     border-radius: 20px;
+    border: 1px solid #76D7C4;
     font-size: 15px;
     margin-top: 20px;
     transition: 0.3s;
 }
 .boton_1:hover{
+    background-image: url(../img/bannercutre.gif);
+    border: 1px solid #76D7C4;
+    color: #76D7C4;
     transition: 0.3s;
-    background-color: #76D7C4;
 }
 .seccion_2{
     width: 100%;
