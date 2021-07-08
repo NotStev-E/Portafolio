@@ -5,7 +5,7 @@ body{
 }
 .caja_de_secciones{
     height: 100%;
-    width: 16%;
+    width: 213px; /*16%*/
     background-image: url(../img/bannercutre.gif);
     display: flex;
     flex-direction: column;
@@ -30,10 +30,7 @@ body{
     border-left: 5px solid #76D7C4;
 }
 .boton_etiquetas, .boton_propiedades, .boton_ejemplos, .boton_ejemplos_2{
-    margin-bottom: 5%;
-}
-.boton_ejemplos_2{
-    margin-bottom: 50px;
+    margin-bottom: 10px;
 }
 /************************************************************************/
 
@@ -41,25 +38,22 @@ body{
     width: 100%;
     height: auto;
     background-color: #138D75;
-    padding-top: 10px;
+    padding: 10px 0px 0px 0px;
 }
 
 /*SECCION LISTA------------------------------------------------------*/
 .lista_texto, .lista_objetos, .lista_texto_css, .lista_objetos_css, .lista_img {
     font-size: 25px;
-    padding-top: 10px;
+    padding: 10px 0px;
     text-align: center;
     width: 100%;
-    height: 40px;
     background-image: url(../img/bannercutre.gif);
     margin: auto;
     color: #76D7C4;
 }
 .Lista_text, .Lista_obj, .Lista_text_css, .Lista_obj_css, .Lista_imag{
     color: #76D7C4;
-    margin-left: 55px;
-    margin-bottom: 30px;
-    margin-top: 50px;
+    margin: 50 0px 30px 55px;
 }
 .seccion_1{
     display: flex;
@@ -198,3 +192,64 @@ img{
     font-size: 20px;
     border: 1px solid #76D7C4;
 }
+
+
+
+
+/*Pagina para telefonos----------------------------------------------*/
+
+@media  screen and (max-width: 500px){
+    body{
+        margin-top: 80px;
+        margin-left: 100px;
+        background-color: black;
+        font-size: 12px;
+    }
+    .caja_de_secciones{
+        height: 100%;
+        width: 100px;
+
+        position: fixed;
+        left: 0;
+        top: 82px;
+    }
+    .caja_de_secciones li a{
+        color: #76D7C4;
+        text-decoration: none;
+        transition: 0.3s;
+        display: block;
+        
+        font-size: 12px;
+        padding: 8px 0px;
+        border-left: 5px solid transparent;
+    }
+
+    /*----------------------------------------------------------------------*/
+
+    .lista_texto, .lista_objetos, .lista_texto_css, .lista_objetos_css, .lista_img {
+        font-size: 15px;
+        text-align: center;
+    }
+    .Lista_text, .Lista_obj, .Lista_text_css, .Lista_obj_css, .Lista_imag{
+        color: #76D7C4;
+        margin: 50 0px 30px 55px;
+    }
+
+    /*----------------------------------------------------------------------*/
+
+    .seccion_1{
+        display: flex;
+        flex-direction: row;
+        width: 275px;
+        height: auto;
+        margin: auto;
+        margin: 40px 0px;
+    }
+    .caja_01{
+        margin: 0;
+        width: 210px;
+        height: 450px;
+    }
+    
+}
+
