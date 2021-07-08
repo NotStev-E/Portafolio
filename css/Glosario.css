@@ -1,6 +1,5 @@
 body{
-    margin-top: 3%;;
-    margin-left: 15.9%;
+    margin: 40px 0px 0px 213px;
     background-color: black;
 }
 .caja_de_secciones{
@@ -200,14 +199,12 @@ img{
 
 @media  screen and (max-width: 500px){
     body{
-        margin-top: 80px;
-        margin-left: 100px;
-        background-color: black;
-        font-size: 12px;
+        margin: 70px 0px 0px 90px;
+        font-size: 8px;
     }
     .caja_de_secciones{
         height: 100%;
-        width: 100px;
+        width: 90px;
 
         position: fixed;
         left: 0;
@@ -219,7 +216,7 @@ img{
         transition: 0.3s;
         display: block;
         
-        font-size: 12px;
+        font-size: 8px;
         padding: 8px 0px;
         border-left: 5px solid transparent;
     }
@@ -245,11 +242,77 @@ img{
         margin: auto;
         margin: 40px 0px;
     }
-    .caja_01{
+
+    /*-----------------------------------------------------------------------*/
+
+    .Titulo_etiquetas{
+        width: 100px;
+        height: 20px;
+        text-align: center;
+        font-size: 15px;
         margin: 0;
-        width: 210px;
-        height: 450px;
     }
+    .caja_01{
+        margin: 0px 0px 50px 40px;
+        width: 210px;
+        height: auto;
+    }
+    .seccion_1 > .caja_10 > li{
+        list-style: none;
+    }
+    .seccion_1 > .caja_9{
+        width: 200px;
+        height: auto;
+        margin-bottom: 102px;
+        margin-top: 102px;
+    }
+    .seccion_1 > .caja_10{
+        width: auto;
+        height: auto;
+        margin-bottom: 90px;
+        margin-top: 100px;   
+    }
+
+/*------------------------------------------------------------------*/
+
+    .seccion_ejemplos, .seccion_ejemplos2, .seccion_ejemplos3, .seccion_ejemplos4, .seccion_ejemplos5{
+        width: 100%;
+        height: auto;
+        margin: auto;
+        padding-top: 10px;
+        padding-bottom: 30px;
+    }
+    .ejemplos{
+        font-size: 15px;
+        padding: 10px 0px 10px 0px;
+        text-align: center;
+        width: 100%;
+        background-image: url(../img/bannercutre.gif);
+        margin: auto;
+        color: #76D7C4;
+    }
+    .ejemplos2{
+        font-size: 15px;
+        padding-top: 10px;
+        text-align: center;
+        width: 100%;
+        background-image: url(../img/bannercutre.gif);
+        margin: auto;
+        color: #76D7C4;
+    }
+    img{
+        width: 100px;
+        height: 30px;
+    }
+    .tablaa{
+        margin: auto;
+        margin-top: 20px;
+        display: table;
+        text-align: center;
+        background-image: url(../img/bannercutre.gif);
+        color: #76D7C4;
+    }
+    
     
 }
 
