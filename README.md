@@ -22,4 +22,5 @@
 2. Anteportada
 3. Índice
 4. Objetivos
-5. Glosario
+5. Home Page
+6. Glosario
