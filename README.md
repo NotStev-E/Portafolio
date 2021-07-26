@@ -2,7 +2,7 @@
 ##### Laboratorio 2021
 <img src="https://paraprogramar.club/wp-content/uploads/First-programming-languages.jpg">
 
-<img src="https://lh3.googleusercontent.com/B5GEEvRfWd4PW8yzISH3yNau0RPzsDoIyLxRh93kLSfMbMsAMooyJocv0RBfRiu0oWqC18FJnd-SGqI=w1366-h657" width="100px">
+<img src="https://lh3.googleusercontent.com/XTgazty_sv7ga1bAbuwg0FYBDspiRFRBppL7MrwJyC67hJyYT7gSblo58ISUXWYeuw_7iDi_Dg--wJY=w1366-h657" width="100px">
 
 
 
