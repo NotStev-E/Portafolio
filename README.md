@@ -17,6 +17,7 @@
 | Portafolio:  | https://notstev-e.github.io/Portafolio/  |
 
 
+
 ## Índice
 
 1. Portada
@@ -27,8 +28,17 @@
 6. Glosario
 
 
+
 ## Home Page
 
 En la página de inicio encontraras el menu que lleva el nombre de quien creo la página, el boton de inicio y el boton del glosario.  
 
 Despues de eso te encontraras con una pequeña leyenda y con el boton que te lleva a mi perfil en la startup. Al final de la página hay una pequeña introducción sobre que hay en mi portafolio.
+
+
+
+## Glosario
+
+En el glosario encontraras el menu que lleva el nombre de quien creo la página, el boton de inicio y el boton del glosario.
+
+En la parte izquierda del glosario encontraras unas secciones que al darles click te llevan a otra parte del glosario con diferente informacón.
