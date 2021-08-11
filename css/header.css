@@ -21,6 +21,23 @@ header{
     top: 0;
     left: 0;
 }
+.capa{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: rgba(0,0,0,0.6);
+    z-index: -1;
+    top: 0;left: 0;
+}
+.container .btn-menu{
+    float: left;
+    line-height:50px;
+}
+.container .btn-menu label{
+    color: #76D7C4;
+    font-size: 25px;
+    cursor: pointer;
+}
 .Nombre{
     font-size: 18px;
     padding: 5px 20px 5px 20px;
@@ -35,6 +52,7 @@ header{
 a{
     text-decoration: none;
 }
+
 .boton_inicio{
     padding: 5px 20px;
     margin: 0px 10px 0px 10px;
@@ -72,14 +90,14 @@ footer{
 
 @media screen and (max-width: 500px) {
     header{
-        height: 80px;
+        height: 40px;
     }
     .Nombre, .menu{
         margin: auto;
         align-self: center;
     }
     footer{
-        font-size: 20px;
+        font-size: 15px;
     }
 }
 
